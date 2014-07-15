@@ -1,4 +1,13 @@
-﻿<div class="wrapper">
+﻿<?php
+	/*
+	  Author :		Luke Brown
+	  License:  	Permission based - ask me first before using.
+	  Created: 		July 2014
+	  URL    :		https://github.com/LukeXF/tfg-website
+	  Contact:		me@luke.sx
+	*/
+?>
+<div class="wrapper">
 <title>TFG - HOME PAGE</title>
 <?php include 'assets/header.php' ?>
 
