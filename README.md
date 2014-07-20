@@ -1,4 +1,4 @@
-tfg-website
+The Fancy Gamer - Website
 ===========
 
 A personal website for a youtuber that uses the [Twitter](https://dev.twitter.com/docs/platform-objects/users) and [YouTube](https://developers.google.com/youtube/v3/code_samples/php) API to grab statistics and data. Also comes with a requested light weight chatrooom that supports [Gravatar](http://en.gravatar.com/) email address, a major feature is that it is AJAX supported with dynamic updating.
