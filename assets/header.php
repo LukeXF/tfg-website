@@ -1,19 +1,9 @@
-<?php
-	/*
-	  Author :		Luke Brown
-	  License:  	Permission based - ask me first before using.
-	  Created: 		July 2014
-	  URL    :		https://github.com/LukeXF/tfg-website
-	  Contact:		me@luke.sx
-	*/
-?>
-
 <?php //Background Randomisation By Luke Brown
 	$bg = array(
 		'http://puu.sh/a8eJE/931415b40b.png',
 		'http://puu.sh/a8fjb/f828893baf.png',
 		'http://puu.sh/a8fk3/824530dbfb.png', 
-		//'Add link for new background here'
+		//'http://puu.sh/8oTgu.jpg'
 		);
 
 	$i = rand(0, count($bg)-1);  $selectedBg = "$bg[$i]";
@@ -31,7 +21,6 @@
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css">
-<!-- Loads the background that is slected at random -->
 <style type="text/css">
 	<!--header { background: url(<?php echo $selectedBg; ?>); 
 		background-position: center center;
