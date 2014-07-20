@@ -7,6 +7,9 @@
 #
 	
 RewriteEngine On
+Options -Indexes
+ErrorDocument 403 http://test.luke.sx/TFG/
+ErrorDocument 404 http://test.luke.sx/TFG/
 
 # don't touch /assets URIs
 RewriteRule ^assets/ - [L,NC]

@@ -22,12 +22,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Exonia Admin Panel">
+<meta name="description" content="The Fancy Gamer">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
-<meta name="keywords" content="Admin, Exonia, Hosting, Design">
+<meta name="keywords" content="YouTube, Minecraft">
 <meta name="author" content="Luke Brown">
 <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css">
 <!-- Loads the background that is slected at random -->
@@ -41,6 +42,7 @@
 </style>
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://apis.google.com/js/platform.js"></script>
 
 <?php
 	$youtube_view_count = json_decode(file_get_contents('http://gdata.youtube.com/feeds/api/users/thefancygamerplays?v=2&alt=json'))->entry->{'yt$statistics'}->totalUploadViews;
@@ -62,11 +64,11 @@
 		<div id="menu">
 			<ul class="toplinks">
 				<li><a href="./">Home</a></li>
-				<li><a href="about">About / Contact</a></li>
 				<li><a href="chat">Chat Room</a></li>
 				<li><a href="https://twitter.com/TheFancyGamer">.<in class="fa fa-twitter fa-lg"></a></li>
-				<li><a href="https://www.youtube.com/thefancygamerplays">.<in class="fa fa-youtube"></a></li>
+				<li><a href="https://www.youtube.com/user/thefancygamerplays">.<in class="fa fa-youtube"></a></li>
 			</ul>
 		</div>
 		<a id="menu-toggle" href="#" class=" ">&#9776;</a> </div>
 </nav>
+		<div id="top"><div class="g-ytsubscribe" data-channel="thefancygamerplays"></div></div>
