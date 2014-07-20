@@ -1,4 +1,13 @@
-﻿<div class="wrapper">
+﻿<?php 
+    /*
+        Author   :      Luke Brown
+        Website  :      http://luke.sx
+        Created  :      July 2014
+        Contact  :      me@luke.sx
+    */
+ ?>
+
+<div class="wrapper">
 <title>TFG - Information</title>
 <?php include 'assets/header.php' ?>
 

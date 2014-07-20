@@ -1,9 +1,15 @@
+<!--
+    Author   :      Luke Brown
+    Website  :      http://luke.sx
+    Created  :      July 2014
+    Contact  :      me@luke.sx
+-->
+
 <?php //Background Randomisation By Luke Brown
 	$bg = array(
 		'http://puu.sh/a8eJE/931415b40b.png',
 		'http://puu.sh/a8fjb/f828893baf.png',
-		'http://puu.sh/a8fk3/824530dbfb.png', 
-		//'http://puu.sh/8oTgu.jpg'
+		'http://puu.sh/a8fk3/824530dbfb.png',
 		);
 
 	$i = rand(0, count($bg)-1);  $selectedBg = "$bg[$i]";

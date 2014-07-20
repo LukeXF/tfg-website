@@ -1,3 +1,11 @@
+<?php 
+    /*
+        Author   :      Luke Brown
+        Website  :      http://luke.sx
+        Created  :      July 2014
+        Contact  :      me@luke.sx
+    */
+ ?>
 <footer>
   <div class="container">
     <p class="fl"> &copy; 2014 The Fancy Gamer</p>
